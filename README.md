@@ -1,2 +1,4 @@
-# csd-340
-Files for CSD 340 course at Bellevue University
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+* Professor Chris Soriano
+* Katie Klein
