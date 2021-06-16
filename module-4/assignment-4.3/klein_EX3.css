@@ -1,0 +1,63 @@
+/* header */
+h1 {
+    text-align: center;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+/* side-by-side divs */
+#favorite-movies {
+    border: 1px solid red;
+    border-radius: 15px;
+    width: 45%;
+    float: left;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    padding: 10px;
+}
+
+#things-i-learned {
+    border: 1px dashed red;
+    border-radius: 15px;
+    width: 45%;
+    float: right;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    padding: 10px;
+}
+
+/* list elements */
+h3 {
+    font-weight: 500;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+li {
+    font-weight: 300;
+}
+
+
+/* last div */
+#footer {
+    width: 100%;
+    margin-top: 60%;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#back-to-top {
+    float: right;
+    margin-bottom: 20px;
+}
