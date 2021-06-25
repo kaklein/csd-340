@@ -1,0 +1,44 @@
+html {
+    background-color: rgba(247, 112, 24, 20%);
+}
+
+h1 {
+    text-align: center;
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+}
+
+h3 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+h1, h3, figcaption {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(185, 63, 8);
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+}
+
+.grid-item {
+    border: 1px solid rgb(185, 63, 8);
+    border-radius: 15px;
+    padding: 5px;
+}
