@@ -1,0 +1,39 @@
+
+#portrait {
+    border-radius: 100px;
+}
+
+header {
+    margin-top: 60px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-row {
+    display: grid;
+}
+
+.card {
+    float: left;
+    display: inline;
+    width: 300px;
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-content img {
+    width: 300px;
+}
