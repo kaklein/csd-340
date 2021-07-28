@@ -35,6 +35,33 @@ a:hover {
     color:#37028C;
 }
 
+/* navbar */
+#navbar {
+    color: white;
+    padding: 20px;
+    height: fit-content;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #37028C;
+}
+
+.navbar-link {
+    display: inline;
+    font-family: 'Comfortaa', Georgia, 'Times New Roman', serif;
+    color: white;
+    font-size: 1.1em;
+}
+
+.navbar-link:hover {
+    color: #55ff9f;
+    cursor: pointer;
+}
+
+#navbar #title {
+    color:#55ff9f;
+}
+
 /* header */
 
 #portrait {
@@ -115,6 +142,7 @@ h1, .card-row-title {
     width: 300px;
     display: block;
     margin: auto;
+    border-radius: 3px;
     box-shadow: 6px 6px 4px #caffe1;
 }
 
